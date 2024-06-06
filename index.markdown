@@ -5,4 +5,9 @@
 layout: page    
 ---
 
-test
+# CoCoNest - A Continuous Structural Connectivity-based Parcellation
+
+## Introduction 
+
+
+## Why Use CoCoNest 
