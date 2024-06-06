@@ -1,8 +1,8 @@
-- name: Contact Me
-  link: /pages/contact-me
-
 - name: Getting Started 
   link: /pages/get-started
 
 - name: Planned Updates
   link: /pages/plan-updates
+
+- name: Contact Me
+  link: /pages/contact-me
