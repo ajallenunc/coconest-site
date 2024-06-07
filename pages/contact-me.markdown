@@ -45,9 +45,9 @@ permalink: /pages/contact-me
         }
 
         .floating-label-form-group input:focus ~ label,
-        .floating-label-form-group input:not(:focus):not(:placeholder-shown) ~ label,
+        .floating-label-form-group input:not(:focus):valid ~ label,
         .floating-label-form-group textarea:focus ~ label,
-        .floating-label-form-group textarea:not(:focus):not(:placeholder-shown) ~ label {
+        .floating-label-form-group textarea:not(:focus):valid ~ label {
             top: -1.5em;
             font-size: 0.85em;
             color: #333;
@@ -62,7 +62,6 @@ permalink: /pages/contact-me
 </head>
 
 <body>
-    {::nomarkdown}
     <div id="contact">
         <h2>Get in Touch</h2>
         <p>Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you within 24 hours!</p>
@@ -71,29 +70,29 @@ permalink: /pages/contact-me
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
-                        <label>Name</label>
                         <input type="text" class="form-control" placeholder="Name" id="name" name="name" required data-validation-required-message="Please enter your name.">
+                        <label for="name">Name</label>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
-                        <label>Email Address</label>
                         <input type="email" class="form-control" placeholder="Email Address" id="email" name="_replyto" required data-validation-required-message="Please enter your email address.">
+                        <label for="email">Email Address</label>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
-                        <label>Phone Number</label>
                         <input type="tel" class="form-control" placeholder="Phone Number" id="phone" name="phone" required data-validation-required-message="Please enter your phone number.">
+                        <label for="phone">Phone Number</label>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
-                        <label>Message</label>
                         <textarea rows="5" class="form-control" placeholder="Message" id="message" name="message" required data-validation-required-message="Please enter a message."></textarea>
+                        <label for="message">Message</label>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
@@ -107,7 +106,6 @@ permalink: /pages/contact-me
             </form>
         </div>
     </div>
-    {:/nomarkdown}
 
     <!-- Include jQuery and Bootstrap JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
