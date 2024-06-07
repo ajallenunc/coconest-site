@@ -10,7 +10,7 @@ layout: page
 ## Introduction 
 
 
-<img src="imgs/coconest_250.jpg" width="400" height="400">
+<img src="imgs/coconest_250.jpg" width="400" height="400", style="display: block; margin-left: auto; margin-right: auto;">
 
 This webpage is a resource for understanding and using CoCoNest - a fully data-driven, multi-resolution family of parcellations created from structural connectome data. Below you will find a brief introduction to CoCoNest. The "Getting Started" page contains instructions for using the CoCoNest family for exploratory and predictive analyses. The "Planned Updates" page contains a list of upcoming updates to the CoCoNest family and accompanying analysis tools.  
 
@@ -21,7 +21,7 @@ The CoCoNest family of parcellations was evaluated using a compresensive collect
 
 ## How Was CoCoNest Created?
 
-<img src="imgs/parc_pipeline.jpg" width="400" height="400">
+<img src="imgs/parc_pipeline.jpg" width="800" height="800", style="display: block; margin-left: auto; margin-right: auto;">
 
 To create the CoCoNest family, we leveraged a recently developed tractography algorithm called surface-enhanced tractography (SET) which has been shown to decrease gyral bias and better approximate the underlying white matter structure. Subsequently, we used a continuous representation of structural connectivity, which provides a rigorous statistical framework for modeling white matter fiber track endpoints and constructs dense, high-resolution structural connectivity matrices. Starting with the high-resolution structural connectivity data, we used a conventional agglomerative (bottom-up) clustering algorithm to construct a full binary tree that aims to reflect the hierarchical organization of the structural connectome. We then used error-complexity pruning to iteratively remove branches from this tree in a greedy fashion, balancing the complexity of the tree with its fit to the high-resolution connectome data. This procedure created a nested sequence of subtrees where each subtree corresponded to a member of the CoCoNest family.
 
