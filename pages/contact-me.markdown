@@ -7,16 +7,16 @@ permalink: /pages/contact-me
 <head>
     <!-- Include Bootstrap CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
-    
+
     <!-- Include custom CSS for floating labels -->
     <style>
-        .floating-label-form-group {
+        #custom-contact-form .floating-label-form-group {
             position: relative;
             margin-bottom: 1.5em;
         }
 
-        .floating-label-form-group input,
-        .floating-label-form-group textarea {
+        #custom-contact-form .floating-label-form-group input,
+        #custom-contact-form .floating-label-form-group textarea {
             z-index: 1;
             position: relative;
             padding-right: 0;
@@ -30,7 +30,7 @@ permalink: /pages/contact-me
             resize: none;
         }
 
-        .floating-label-form-group label {
+        #custom-contact-form .floating-label-form-group label {
             position: absolute;
             top: 0;
             left: 0;
@@ -44,17 +44,17 @@ permalink: /pages/contact-me
             transition: all 0.2s ease;
         }
 
-        .floating-label-form-group input:focus ~ label,
-        .floating-label-form-group input:not(:focus):valid ~ label,
-        .floating-label-form-group textarea:focus ~ label,
-        .floating-label-form-group textarea:not(:focus):valid ~ label {
+        #custom-contact-form .floating-label-form-group input:focus ~ label,
+        #custom-contact-form .floating-label-form-group input:not(:focus):valid ~ label,
+        #custom-contact-form .floating-label-form-group textarea:focus ~ label,
+        #custom-contact-form .floating-label-form-group textarea:not(:focus):valid ~ label {
             top: -1.5em;
             font-size: 0.85em;
             color: #333;
         }
 
-        .floating-label-form-group input:focus,
-        .floating-label-form-group textarea:focus {
+        #custom-contact-form .floating-label-form-group input:focus,
+        #custom-contact-form .floating-label-form-group textarea:focus {
             border-bottom: 1px solid #555;
             outline: none;
         }
@@ -66,29 +66,33 @@ permalink: /pages/contact-me
         <h2>Get in Touch</h2>
         <p>Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you within 24 hours!</p>
         <div id="contact-form">
-            <form action="https://formspree.io/f/xnqekkjk" method="POST" name="sentMessage" id="contactForm" novalidate>
+            <form id="custom-contact-form" action="https://formspree.io/f/xnqekkjk" method="POST" name="sentMessage" novalidate>
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <input type="text" class="form-control" placeholder="Name" id="name" name="name" required data-validation-required-message="Please enter your name.">
+                        <label for="name">Name</label>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <input type="email" class="form-control" placeholder="Email Address" id="email" name="_replyto" required data-validation-required-message="Please enter your email address.">
+                        <label for="email">Email Address</label>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <input type="tel" class="form-control" placeholder="Phone Number" id="phone" name="phone" required data-validation-required-message="Please enter your phone number.">
+                        <label for="phone">Phone Number</label>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <textarea rows="5" class="form-control" placeholder="Message" id="message" name="message" required data-validation-required-message="Please enter a message."></textarea>
+                        <label for="message">Message</label>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
