@@ -89,8 +89,7 @@ permalink: /pages/contact-me
 
 <body>
     <div id="contact">
-        <h2>Get in Touch</h2>
-        <p>Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you within 24 hours!</p>
+        <h2>Have any questions or recommendations for improving CoCoNest? Leave me a message below and I'll try to get back to you shortly.</h2>
         <div id="contact-form">
             <form id="custom-contact-form" action="https://formspree.io/f/xnqekkjk" method="POST" name="sentMessage" novalidate>
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
@@ -103,12 +102,6 @@ permalink: /pages/contact-me
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <input type="email" class="form-control" placeholder="Email Address" id="email" name="_replyto" required data-validation-required-message="Please enter your email address.">
-                        <p class="help-block text-danger"></p>
-                    </div>
-                </div>
-                <div class="row control-group">
-                    <div class="form-group col-xs-12 floating-label-form-group controls">
-                        <input type="tel" class="form-control" placeholder="Phone Number" id="phone" name="phone" required data-validation-required-message="Please enter your phone number.">
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
