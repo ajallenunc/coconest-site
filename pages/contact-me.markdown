@@ -5,10 +5,7 @@ permalink: /pages/contact-me
 ---
 
 <head>
-    <!-- Include Bootstrap CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Include custom CSS for floating labels -->
+    <!-- Include only necessary Bootstrap CSS for the form -->
     <style>
         #custom-contact-form .floating-label-form-group {
             position: relative;
@@ -58,6 +55,35 @@ permalink: /pages/contact-me
             border-bottom: 1px solid #555;
             outline: none;
         }
+
+        #custom-contact-form .form-group {
+            margin-bottom: 15px;
+        }
+
+        #custom-contact-form .btn {
+            display: inline-block;
+            padding: 6px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 1.42857143;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: middle;
+            -ms-touch-action: manipulation;
+                touch-action: manipulation;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            user-select: none;
+        }
+
+        #custom-contact-form .btn-default {
+            color: #333;
+            background-color: #fff;
+            border-color: #ccc;
+        }
     </style>
 </head>
 
@@ -71,28 +97,24 @@ permalink: /pages/contact-me
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <input type="text" class="form-control" placeholder="Name" id="name" name="name" required data-validation-required-message="Please enter your name.">
-                        <label for="name">Name</label>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <input type="email" class="form-control" placeholder="Email Address" id="email" name="_replyto" required data-validation-required-message="Please enter your email address.">
-                        <label for="email">Email Address</label>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <input type="tel" class="form-control" placeholder="Phone Number" id="phone" name="phone" required data-validation-required-message="Please enter your phone number.">
-                        <label for="phone">Phone Number</label>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <textarea rows="5" class="form-control" placeholder="Message" id="message" name="message" required data-validation-required-message="Please enter a message."></textarea>
-                        <label for="message">Message</label>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
