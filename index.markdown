@@ -11,7 +11,7 @@ layout: page
 
 ![Visualization the CoCoNest member with 250 parcels.](imgs/coconest_250.jpg){ width="50%" }
 
-<img src="https://github.com/ajallenunc/coconest-site/blob/main/imgs/coconest_250.jpg" width="50" height="50">
+<img src="imgs/coconest_250.jpg" width="50" height="50">
 
 This webpage is a resource for understanding and using CoCoNest - a fully data-driven, multi-resolution family of parcellations created from structural connectome data. Below you will find a brief introduction to CoCoNest. The "Getting Started" page contains instructions for using the CoCoNest family for exploratory and predictive analyses. The "Planned Updates" page contains a list of upcoming updates to the CoCoNest family and accompanying analysis tools.  
 
