@@ -70,29 +70,25 @@ permalink: /pages/contact-me
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
-                        <input type="text" class="form-control" placeholder="" id="name" name="name" required data-validation-required-message="Please enter your name.">
-                        <label for="name">Name</label>
+                        <input type="text" class="form-control" placeholder="Name" id="name" name="name" required data-validation-required-message="Please enter your name.">
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
-                        <input type="email" class="form-control" placeholder="" id="email" name="_replyto" required data-validation-required-message="Please enter your email address.">
-                        <label for="email">Email Address</label>
+                        <input type="email" class="form-control" placeholder="Email Address" id="email" name="_replyto" required data-validation-required-message="Please enter your email address.">
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <input type="tel" class="form-control" placeholder="Phone Number" id="phone" name="phone" required data-validation-required-message="Please enter your phone number.">
-                        <label for="phone">Phone Number</label>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
                 <div class="row control-group">
                     <div class="form-group col-xs-12 floating-label-form-group controls">
                         <textarea rows="5" class="form-control" placeholder="Message" id="message" name="message" required data-validation-required-message="Please enter a message."></textarea>
-                        <label for="message">Message</label>
                         <p class="help-block text-danger"></p>
                     </div>
                 </div>
