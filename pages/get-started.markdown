@@ -27,7 +27,7 @@ Recall that the CoCoNest family was created by parcellating 3675 vertices on the
 1628 1630 2.8189
 ```
 
-This indicates that the first two parcels merged were vertices 1628 and 1630 with a similarity of 2.8189. The new parcel containing vertices 1628 and 1630 is labeled as parcel $$3675 + 1 = 3676$$. 
+This indicates that the first two parcels merged were vertices 1628 and 1630 with a similarity of 2.8189. The new parcel containing vertices 1628 and 1630 is labeled as parcel \(3675 + 1 = 3676\). 
  
 
 
