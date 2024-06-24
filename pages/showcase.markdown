@@ -9,6 +9,10 @@ Below are examples of using CoCoNest for brain connectivity analyses.
 # Trait Prediction 
 
 
+<p align="center">
+<img src="imgs/abcd_external_results.jpg" width="400" height="400">
+</p>
+
 
 
 
@@ -18,8 +22,26 @@ Below are examples of using CoCoNest for brain connectivity analyses.
 # Network-based Analyses 
 
 
+<p align="center">
+<img src="imgs/rich_club_results.jpg" width="400" height="400">
+</p>
+
+
 
 
 
 
 # Exploratory Analyses 
+
+
+<p align="center">
+<img src="imgs/coco_on_glass.jpg" width="400" height="400">
+</p>
+
+<p align="center">
+<img src="imgs/n_prunes.jpg" width="400" height="400">
+</p>
+
+<p align="center">
+<img src="imgs/tree_growth.jpg" width="400" height="400">
+</p>
