@@ -89,7 +89,7 @@ permalink: /pages/contact-us
 
 <body>
     <div id="contact">
-        <h2>Have any questions or suggestions for improving CoCoNest? Leave me a message below, and I'll get back to you as soon as possible.<br></h2>
+        <h2>Have any questions or suggestions for improving CoCoNest? Leave me a message below, and we'll get back to you as soon as possible.<br></h2>
         <div id="contact-form">
             <form id="custom-contact-form" action="https://formspree.io/f/xnqekkjk" method="POST" name="sentMessage" novalidate>
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
