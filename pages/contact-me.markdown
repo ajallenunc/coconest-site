@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Contact Me
-permalink: /pages/contact-me
+title: Contact Us
+permalink: /pages/contact-us
 ---
 
 <head>
