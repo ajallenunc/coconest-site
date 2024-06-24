@@ -1,8 +1,12 @@
 - name: Getting Started 
   link: /pages/get-started
 
+- name: Showcase 
+  link: /pages/Showcase
+
 - name: Planned Updates
   link: /pages/plan-updates
 
 - name: Contact Me
   link: /pages/contact-me
+
