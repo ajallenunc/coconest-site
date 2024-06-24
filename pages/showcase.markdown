@@ -4,7 +4,7 @@ title: Showcase
 permalink: /pages/showcase
 ---
 
-Below are examples of using CoCoNest for brain connectivity analyses. 
+We believe that the CoCoNest family can serve as a valuable tool for researchers. Below are examples of using CoCoNest for brain connectivity exploration and analysis. 
 
 # Trait Prediction 
 
